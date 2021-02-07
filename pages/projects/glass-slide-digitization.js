@@ -1,24 +1,21 @@
 import Head from "next/head";
 import Navigation from "@components/Navigation";
 import Footer from "@components/Footer";
-import ProjectsList from "@components/ProjectsList";
 
-export default function Home() {
+export default function GlassSlideDigitization() {
   return (
     <div className="container">
       <Head>
-        <title>My Portfolio</title>
+        <title>Glass Slide Digitization | Projects | My Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Navigation />
 
       <main className="main">
-        <h1 className="main-title">Welcome to my portfolio</h1>
+        <h1 className="main-title">Glass Slide Digitization</h1>
 
-        <p className="main-description">This is the home page</p>
-
-        <ProjectsList />
+        <p className="main-description">Digitized some glass slides!</p>
       </main>
 
       <Footer />
