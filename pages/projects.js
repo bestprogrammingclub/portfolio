@@ -1,18 +1,9 @@
 import Head from "next/head";
+import Link from "next/link";
 import Navigation from "@components/Navigation";
 import Footer from "@components/Footer";
+import projects from "../db/projects";
 import projectStyles from "./projects.module.css";
-
-const projects = [
-  {
-    name: "Farmer's market",
-    description: "Buy some fruits and vegetables",
-  },
-  {
-    name: "Chess",
-    description: "Play chess online",
-  },
-];
 
 export default function Projects() {
   return (
@@ -37,6 +28,9 @@ export default function Projects() {
                 <p className={projectStyles.description}>
                   {project.description}
                 </p>
+                <div>
+                  <Link href={`/projects/${project.slug}`}>View</Link>
+                </div>
               </div>
             ))}
           </section>
