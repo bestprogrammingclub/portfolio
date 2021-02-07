@@ -13,9 +13,9 @@ export default function Home() {
       <Navigation />
 
       <main className="main">
-        <h1 className="title">Welcome to my portfolio</h1>
+        <h1 className="main-title">Welcome to my portfolio</h1>
 
-        <p>This is the home page</p>
+        <p className="main-description">This is the home page</p>
       </main>
 
       <Footer />

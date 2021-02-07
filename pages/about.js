@@ -13,9 +13,9 @@ export default function About() {
       <Navigation />
 
       <main className="main">
-        <h1 className="title">About me</h1>
+        <h1 className="main-title">About me</h1>
 
-        <p>This is the about me page</p>
+        <p className="main-description">This is the about me page</p>
       </main>
 
       <Footer />
