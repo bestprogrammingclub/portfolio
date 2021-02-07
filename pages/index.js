@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navigation from "@components/Navigation";
 import Footer from "@components/Footer";
+import ProjectsList from "@components/ProjectsList";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
         <h1 className="main-title">Welcome to my portfolio</h1>
 
         <p className="main-description">This is the home page</p>
+
+        <ProjectsList />
       </main>
 
       <Footer />
