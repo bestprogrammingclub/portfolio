@@ -2,20 +2,20 @@ import Head from "next/head";
 import Navigation from "@components/Navigation";
 import Footer from "@components/Footer";
 
-export default function Home() {
+export default function Projects() {
   return (
     <div className="container">
       <Head>
-        <title>My Portfolio</title>
+        <title>Selected Projects | My Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Navigation />
 
       <main className="main">
-        <h1 className="title">Welcome to my portfolio</h1>
+        <h1 className="title">Selected projects</h1>
 
-        <p>This is the home page</p>
+        <p>This is the projects page</p>
       </main>
 
       <Footer />
