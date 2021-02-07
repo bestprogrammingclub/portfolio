@@ -4,10 +4,10 @@ import styles from "./ProjectsList.module.css";
 
 export default function ProjectsList() {
   const mediaProjects = projects.filter((project) => {
-    return project.category === "Media";
+    return project.categories.includes("Media");
   });
   const designProjects = projects.filter((project) => {
-    return project.category === "Design";
+    return project.categories.includes("Media");
   });
 
   return (
